@@ -541,8 +541,11 @@ class ChatBot(Client):
             elif (msg == "fuck you"):
                 reply = "if you are a girl i am ready and if boy one slap give no you die here only..."
                 sendMsg()
-            elif (msg == "fuck"):
+            elif ("fuck" in msg):
                 reply = "please dont use this word i dont talk and listen bad word"
+                sendMsg()
+            elif ("bot" in msg):
+                reply = "please dont call me bot my nam,e is ilios call me by my name u bastard.."
                 sendMsg()
 
         except Exception as e:
