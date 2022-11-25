@@ -547,9 +547,6 @@ class ChatBot(Client):
             elif ("bot" in msg):
                 reply = "please dont call me bot my name is ilios call me by my name u bastard.."
                 sendMsg()
-            elif ("lol"):
-                reply = "kasto lol bhaneko kya"
-                sendMsg()
             elif ("lol" in msg):
                 reply = "here lol means lots of love"
                 sendMsg() 
