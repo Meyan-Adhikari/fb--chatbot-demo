@@ -545,9 +545,14 @@ class ChatBot(Client):
                 reply = "please dont use this word i dont talk and listen bad word"
                 sendMsg()
             elif ("bot" in msg):
-                reply = "please dont call me bot my nam,e is ilios call me by my name u bastard.."
+                reply = "please dont call me bot my name is ilios call me by my name u bastard.."
                 sendMsg()
-
+            elif ("lol" or "Lol"):
+                reply = "kasto lol bhaneko kya"
+                sendMsg()
+            elif ("lol" in msg):
+                reply = "here lol means lots of love"
+                sendMsg()    
         except Exception as e:
             print(e)
 
