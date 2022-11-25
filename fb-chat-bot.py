@@ -536,7 +536,10 @@ class ChatBot(Client):
                 reply = "Hi"
                 sendMsg()
             elif (msg == "hi"):
-                reply = "Hello! How can I help you?"
+                reply = "Hello! How can I help you bitch?"
+                sendMsg()
+            elif (msg == "fuck you"):
+                reply = "if you are a girl i am ready and if boy one slap give no you die here only..."
                 sendMsg()
 
         except Exception as e:
