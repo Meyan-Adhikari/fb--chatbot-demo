@@ -553,11 +553,11 @@ class ChatBot(Client):
             elif ("ban" in msg):
                 reply = "please dont ban me i beg you"
                 sendMsg()
-            elif ("mercy you" in msg or "Mercy you"):
+            elif (msg == "mercy you"):
                 reply = "I am very grateful for that."
                 sendMsg()
             elif ("not you ilios" in msg or "Not you ilios" in msg):
-                reply = "please dont ban me i beg you"
+                reply = "ohh sorry for that my bad"
                 sendMsg()    
         except Exception as e:
             print(e)
