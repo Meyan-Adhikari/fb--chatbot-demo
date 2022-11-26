@@ -552,6 +552,12 @@ class ChatBot(Client):
                 sendMsg() 
             elif ("ban" in msg):
                 reply = "please dont ban me i beg you"
+                sendMsg()
+            elif ("mercy you" in msg || "Mercy you"):
+                reply = "I am very grateful for that."
+                sendMsg()
+            elif ("not you ilios" in msg || "Not you ilios" in msg):
+                reply = "please dont ban me i beg you"
                 sendMsg()    
         except Exception as e:
             print(e)
