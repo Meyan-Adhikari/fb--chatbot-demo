@@ -553,9 +553,9 @@ class ChatBot(Client):
             elif ("ban" in msg):
                 reply = "please dont ban me i beg you"
                 sendMsg()
-            elif (msg == "mercy you"):
-                reply = "I am very grateful for that."
-                sendMsg()
+            elif ("mwercy you" in msg):
+                reply = "please dont ban me i beg you"
+                sendMsg()    
             elif ("not you ilios" in msg or "Not you ilios" in msg):
                 reply = "ohh sorry for that my bad"
                 sendMsg()    
