@@ -515,6 +515,32 @@ class ChatBot(Client):
             elif ("thanks" in msg):
                 reply = "You're welcome🙂"
                 sendMsg()
+            elif ("master" in msg):
+                self.send(Message(text="Meyan Sir is my master and no one else"), thread_id=thread_id,
+                      thread_type=thread_type)
+            elif("musalman" in msg or "muslim" in msg):
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
+                self.send(Message(text="Don't call him that you bitch shut the fuck up"), thread_id=thread_id,
+                      thread_type=thread_type)
             elif ("well done" in msg):
                 reply = "Thanks🙂"
                 sendMsg()
