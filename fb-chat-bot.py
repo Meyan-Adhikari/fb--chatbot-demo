@@ -536,7 +536,7 @@ class ChatBot(Client):
                 reply = "Hi"
                 sendMsg()
             elif (msg == "hi"):
-                reply = "Hello! How can I help you bitch?"
+                reply = "Hello! How can I help you?"
                 sendMsg()
             elif (msg == "fuck you"):
                 reply = "if you are a girl i am ready and if boy one slap give no you die here only..."
@@ -545,15 +545,12 @@ class ChatBot(Client):
                 reply = "please dont use this word i dont talk and listen bad word"
                 sendMsg()
             elif ("bot" in msg):
-                reply = "please dont call me bot my name is ilios call me by my name u bastard.."
+                reply = "please dont call me bot my name is ilios call me by my name u noob.."
                 sendMsg()
             elif ("lol" in msg):
                 reply = "here lol means lots of love"
                 sendMsg() 
             elif ("ban" in msg):
-                reply = "please dont ban me i beg you"
-                sendMsg()
-            elif ("mwercy you" in msg):
                 reply = "please dont ban me i beg you"
                 sendMsg()    
             elif ("not you ilios" in msg or "Not you ilios" in msg):
