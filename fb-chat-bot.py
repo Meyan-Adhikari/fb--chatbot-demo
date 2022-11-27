@@ -449,7 +449,7 @@ class ChatBot(Client):
                 reply = weather(query)
                 sendQuery()
             elif "suraj" in msg:
-                self.send(Message(text="U mean Gola, u can also call him dalit and bitch"), thread_id=thread_id,
+                self.send(Message(text="U mean king suraj, u can also call him as goat"), thread_id=thread_id,
                       thread_type=thread_type)
             elif "corona of" in msg:
                 corona_details(msg.split()[2])
