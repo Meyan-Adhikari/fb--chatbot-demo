@@ -549,10 +549,7 @@ class ChatBot(Client):
                 sendMsg()
             elif ("lol" in msg):
                 reply = "here lol means lots of love"
-                sendMsg() 
-            elif ("ban" in msg):
-                reply = "please dont ban me i beg you"
-                sendMsg()    
+                sendMsg()     
             elif ("not you ilios" in msg or "Not you ilios" in msg):
                 reply = "ohh sorry for that my bad"
                 sendMsg()    
