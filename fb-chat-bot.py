@@ -17,6 +17,7 @@ from difflib import SequenceMatcher, get_close_matches
 class ChatBot(Client):
 
     def onMessage(self, mid=None, author_id=None, message_object=None, thread_id=None, thread_type=ThreadType.USER, **kwargs):
+      
         try:
             msg = str(message_object).split(",")[15][14:-1]
 
@@ -31,10 +32,13 @@ class ChatBot(Client):
                 print(msg)
             except:
                 pass
+            
         def sendMsg():
             if (author_id != self.uid):
                 self.send(Message(text=reply), thread_id=thread_id,
                           thread_type=thread_type)
+                
+        
 
         def sendQuery():
             self.send(Message(text=reply), thread_id=thread_id,
@@ -444,6 +448,9 @@ class ChatBot(Client):
                 query = msg[indx+11:]
                 reply = weather(query)
                 sendQuery()
+            elif "suraj" in msg:
+                self.send(Message(text="U mean Gola, u can also call him dalit and bitch"), thread_id=thread_id,
+                      thread_type=thread_type)
             elif "corona of" in msg:
                 corona_details(msg.split()[2])
             elif ("calculus" in msg):
